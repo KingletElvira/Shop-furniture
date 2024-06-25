@@ -1,0 +1,100 @@
+.bg {
+    background-color: $green-color;
+}
+
+.header {
+    margin-bottom: 32.3px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    height: 34px;
+    width: auto;
+    padding-right: 36px;
+}
+
+.nav__button {
+    width: 113px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: $green-color;
+    border: 1px solid white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button__pic-menu {
+    height: 24px;
+    width: auto;
+    float: left;
+    padding-left: 11px;
+    padding-right: 5px;
+}
+
+.button__text {
+    color: white;
+    padding-right: 16px;
+}
+
+.font_semibold {
+    font-family: "Inter_semibold";
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.nav__item {
+    padding-right: 35px;
+
+}
+
+.last {
+    padding-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.nav__basket {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bascet-pic {
+    width: auto;
+    height: 24px;
+    padding-right: 4px;
+}
+
+.bascet-text {
+    color: white;
+}
+
+.font_medium {
+    font-family: "Inter_medium";
+    font-size: 14px;
+    line-height: 16.94px;
+}

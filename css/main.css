@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Inter_regular";
+  src: url("/fonts/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter_semibold";
+  src: url("/fonts/static/Inter-Semibold.ttf");
+}
+@font-face {
+  font-family: "Inter_medium";
+  src: url("/fonts/static/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter_bold";
+  src: url("/fonts/static/Inter-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1319px;
+  margin: 0 auto;
+}
+
+.bg {
+  background-color: #9DC82C;
+}
+
+.header {
+  margin-bottom: 32.3px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  height: 34px;
+  width: auto;
+  padding-right: 36px;
+}
+
+.nav__button {
+  width: 113px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: #9DC82C;
+  border: 1px solid white;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button__pic-menu {
+  height: 24px;
+  width: auto;
+  float: left;
+  padding-left: 11px;
+  padding-right: 5px;
+}
+
+.button__text {
+  color: white;
+  padding-right: 16px;
+}
+
+.font_semibold {
+  font-family: "Inter_semibold";
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 60px;
+}
+
+.nav__item {
+  padding-right: 35px;
+}
+
+.last {
+  padding-right: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.nav__basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bascet-pic {
+  width: auto;
+  height: 24px;
+  padding-right: 4px;
+}
+
+.bascet-text {
+  color: white;
+}
+
+.font_medium {
+  font-family: "Inter_medium";
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.font_bold {
+  font-family: "Inter_bold";
+  font-size: 36px;
+  line-height: 55px;
+}
+
+.font_regular {
+  font-family: "Inter_regular";
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.popular__title {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+
+.popular__filter {
+  margin: 0 auto;
+  max-width: 649px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  justify-items: center;
+  margin-bottom: 68px;
+}
+
+.long {
+  width: 161px;
+}
+
+.popular__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 47px;
+  -moz-column-gap: 25.16px;
+       column-gap: 25.16px;
+  margin-bottom: 180px;
+}
+
+.card__bg {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 291.8px;
+  height: 283px;
+  margin-bottom: 17px;
+}
+
+.card__product-pic {
+  display: block;
+  margin: 0 auto;
+  padding-top: 54.08px;
+}
+
+.card__title {
+  text-align: left;
+  font-size: 18px;
+  line-height: 21.78px;
+  margin-bottom: 7px;
+}
+
+.card__product-color {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card__price {
+  font-size: 20px;
+  line-height: 24.2px;
+  color: black;
+}
+
+.news__title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.news__categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1ft);
+  grid-template-rows: repeat(2, 1ft);
+}
+
+.categories__item {
+  border-radius: 10px;
+}
+
+.first {
+  background-image: url(/pictures/news/sofa_grey.png);
+  width: 680px;
+  height: 383.4px;
+  grid-column: 1/3;
+  grid-column: 1/3;
+}
+
+.second {
+  background-image: url(/pictures/news/sofa_new.png);
+  width: 396px;
+  height: 180px;
+  grid-column-start: col2;
+  grid-row-start: row1;
+}
+
+.third {
+  grid-column-start: col2;
+  grid-row-start: row2;
+}
+
+.other {
+  background-image: url(/pictures/news/interier.png);
+  width: 259px;
+  height: 229px;
+}
+
+.last {
+  background-color: #FF2632;
+  width: 1102px;
+  height: 261.54px;
+}/*# sourceMappingURL=main.css.map */

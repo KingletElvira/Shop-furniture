@@ -1,0 +1,76 @@
+.font_bold {
+    font-family: "Inter_bold";
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.font_regular {
+    font-family: "Inter_regular";
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.popular__title {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    color: $text-color;
+}
+
+.popular__filter {
+    margin: 0 auto;
+    max-width: 649px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 35px;
+    justify-items: center;
+    margin-bottom: 68px;
+}
+
+.long {
+    width: 161px;
+}
+
+.popular__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 47px;
+    column-gap: 25.16px;
+    margin-bottom: 180px;
+}
+
+.card__bg {
+    background-color: $bg-card_color;
+    border-radius: 10px;
+    width: 291.8px;
+    height: 283px;
+    margin-bottom: 17px;
+}
+
+.card__product-pic {
+    display: block;
+    margin: 0 auto;
+    padding-top: 54.08px;
+}
+
+.card__title {
+    text-align: left;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 7px;
+}
+
+.card__product-color {
+    color: $grey-color;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card__price {
+    font-size: 20px;
+    line-height: 24.2px;
+    color: $text-color;
+}

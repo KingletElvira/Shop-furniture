@@ -1,0 +1,38 @@
+$green-color: #9DC82C;
+$text-color: black;
+$grey-color: rgba(0, 0, 0, 0.5);
+$bg-card_color: #FAFAFA;
+
+@font-face {
+    font-family: "Inter_regular";
+    src: url("/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter_semibold";
+    src: url("/fonts/static/Inter-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "Inter_medium";
+    src: url("/fonts/static/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter_bold";
+    src: url("/fonts/static/Inter-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1319px;
+    margin: 0 auto;
+}
+
+@import "./blocks/header";
+@import "./blocks/popular";
+@import "./blocks/news";
